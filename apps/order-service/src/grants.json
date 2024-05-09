@@ -6,9 +6,21 @@
     "attributes": "*"
   },
   {
+    "role": "hieudanm",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
     "resource": "User",
     "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "hieudanm",
+    "resource": "User",
+    "action": "update:any",
     "attributes": "*"
   },
   {
@@ -18,7 +30,7 @@
     "attributes": "*"
   },
   {
-    "role": "user",
+    "role": "hieudanm",
     "resource": "User",
     "action": "delete:any",
     "attributes": "*"
@@ -26,6 +38,78 @@
   {
     "role": "user",
     "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "hieudanm",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "hieudanm",
+    "resource": "Tet",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Tet",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "hieudanm",
+    "resource": "Tet",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Tet",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "hieudanm",
+    "resource": "Tet",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Tet",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "hieudanm",
+    "resource": "Tet",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Tet",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "hieudanm",
+    "resource": "Tet",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Tet",
     "action": "read:any",
     "attributes": "*"
   }
