@@ -18,3 +18,10 @@ model User {
   updatedAt DateTime @updatedAt
   username  String   @unique
 }
+
+model Tet {
+  createdAt DateTime @default(now())
+  hieuDan   Boolean  @unique
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  updatedAt DateTime @updatedAt
+}
